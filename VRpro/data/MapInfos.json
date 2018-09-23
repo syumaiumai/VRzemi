@@ -1,6 +1,7 @@
 [
 null,
-{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
-{"id":2,"expanded":false,"name":"MAP002","order":2,"parentId":1,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
-{"id":3,"expanded":false,"name":"MAP003","order":3,"parentId":1,"scrollX":1139,"scrollY":705.5}
+{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":758,"scrollY":465.6666666666667},
+{"id":2,"expanded":false,"name":"MAP002","order":2,"parentId":1,"scrollX":758,"scrollY":465.6666666666667},
+{"id":3,"expanded":false,"name":"MAP003","order":3,"parentId":1,"scrollX":758,"scrollY":465.6666666666667},
+{"id":4,"expanded":true,"name":"MAP004（イベントなし）","order":4,"parentId":1,"scrollX":758,"scrollY":465.6666666666667}
 ]

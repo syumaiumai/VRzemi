@@ -1584,12 +1584,12 @@ Window_MenuCommand.prototype.numVisibleRows = function() {
 };
 
 Window_MenuCommand.prototype.makeCommandList = function() {
-    this.addMainCommands();
-    this.addFormationCommand();
-    this.addOriginalCommands();
-    this.addOptionsCommand();
-    this.addSaveCommand();
-    this.addGameEndCommand();
+   // this.addMainCommands();
+   // this.addFormationCommand();
+   // this.addOriginalCommands();
+   // this.addOptionsCommand();
+   // this.addSaveCommand();
+   // this.addGameEndCommand();
 };
 
 Window_MenuCommand.prototype.addMainCommands = function() {
