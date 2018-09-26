@@ -10,12 +10,12 @@ var $plugins =
 {"name":"HalfMove","status":true,"description":"半歩移動プラグイン","parameters":{"8方向移動":"false","8方向移動スイッチ":"","イベントすり抜け":"false","強制中無効":"false","角回避":"true","斜め移動中減速":"false","トリガー拡大":"false","実歩数調整":"false","上半分移動不可地形":"[\"3\"]","上半分移動不可Region":"[\"3\"]","下半分移動不可地形":"[\"4\"]","下半分移動不可Region":"[\"4\"]","右半分移動不可地形":"[\"2\"]","右半分移動不可Region":"[\"2\"]","左半分移動不可地形":"[\"1\"]","左半分移動不可Region":"[\"1\"]","全方向移動不可地形":"[\"5\"]","全方向移動不可Region":"[\"5\"]","イベント複数起動防止":"true","イベント位置重複OK":"false"}},
 {"name":"ChangeActorImageSystem","status":true,"description":"アクターの画像を変えます","parameters":{"読み込むファイル名":"Actor","説明ウィンドウの文字":"のアバターを選択してください","ページウィンドウの表記":"アバター","文字色の指定":"0","ウィンドウスキンの指定":"Window","ウィンドウの透明度の指定":"180","背景のファイル名":"","背景の色":"","1ページに表示する画像数":"8"}},
 {"name":"Yami_SkipTitle","status":true,"description":"Skip the title scene for testing purpose.","parameters":{}},
-{"name":"Test","status":false,"description":"テスト用プラグイン","parameters":{}},
 {"name":"FacePicture","status":true,"description":"顔グラのピクチャ表示プラグイン","parameters":{}},
 {"name":"OggOnly","status":true,"description":"音声ファイルの再生にoggファイルのみを使用します。","parameters":{"deleteM4a":"false"}},
 {"name":"CharacterPopupDamage","status":true,"description":"キャラクターのダメージポッププラグイン","parameters":{"効果音演奏":"ON","X座標補正":"0","Y座標補正":"0","HP自動ポップアップ":"ON","MP自動ポップアップ":"ON","TP自動ポップアップ":"ON","増加自動ポップアップ":"ON","減少自動ポップアップ":"ON","MPダメージ音":"","回転":"ON","X方向半径":"40","Y方向半径":"40","回転速度":"60","拡大率":"100","拡大率変化値":"-10","最前面表示":"OFF"}},
 {"name":"SimpleMenuLayout","status":true,"description":"シンプルなメニュー画面を実装します。","parameters":{"----基本的な設定----":"","メニュー幅":"0","メニュー列数":"0","メニューX座標":"{\"basis\":\"center\",\"correction\":\"0\"}","メニューY座標":"{\"basis\":\"center\",\"correction\":\"0\"}"}},
 {"name":"AdjustPictureGraphical","status":true,"description":"ピクチャのグラフィカルな位置調整プラグイン。\nパラメータを変更したら「プロジェクトの保存」（Ctrl+S）","parameters":{"グリッドサイズ":"48","テストマップID":"-1"}},
 {"name":"MKR_PlayerMoveForbid","status":true,"description":"(v1.0.5) プレイヤー移動禁止プラグイン","parameters":{"Default_Move_Flag":"7","Default_Menu_Flag":"false","Enter Flag":"true"}},
-{"name":"NOS_NonVisibleOnMagicPoint","status":true,"description":"MPをすべての画面から非表示にする","parameters":{}}
+{"name":"NOS_NonVisibleOnMagicPoint","status":true,"description":"MPをすべての画面から非表示にする","parameters":{}},
+{"name":"KeyJudge","status":true,"description":"キー入力判定プラグイン","parameters":{}}
 ];
