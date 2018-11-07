@@ -377,12 +377,48 @@ function Game_Avatar() {
 		OnlineManager.removePlayerInfo();
 		_Scene_Title_start.apply(this, arguments);
 	};
+	
 
+	
 	//プラグインコマンド
 	var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
 	Game_Interpreter.prototype.pluginCommand = function(command, args) {
 		_Game_Interpreter_pluginCommand.apply(this, arguments);
 		if (command.toLowerCase() === 'online') {
+			
+			var today = new Date();//時間の取得
+				var year = today.getFullYear();
+				var month = today.getMonth();
+				var day = today.getDate();
+				var hour = today.getHours();
+				var minute = today.getMinutes();
+				var second = today.getSeconds();
+		 	//var time = hour +":"+ minute +":"+ second +"\t"+  year +"/"+ month+"/"+ day;
+		 	var time = new Date(year, month, day, hour, minute, second)
+		 	
+		 	
+			if ($gameVariables.value(1)!=0){ //変数１に発言が一時保存されている場合
+				
+				if($gameVariables.value(1)!= $gameVariables.value(143) &&  $gameVariables.value(143) !=0){  //変数1の発言の削除前に別の発言がなされた場合の処理
+				
+					var name =$gameParty.members()[0].name()		
+				
+						$gameVariables.setValue(143, $gameVariables.value(143)+ name +"："+$gameVariables.value(1)+"\t"+ time + ",");//143番に発言内容と発言日時を保存。
+				
+				}else if($gameVariables.value(143)==""){
+				
+					var name =$gameParty.members()[0].name() 
+					$gameVariables.setValue(143, name +"："+$gameVariables.value(1)+"\t"+ time +  ",");//143番に発言内容を保存。
+					
+				}else{
+					var name =$gameParty.members()[0].name() 
+					$gameVariables.setValue(143,$gameVariables.value(143)+ name +"："+$gameVariables.value(1)+"\t"+ time +  ",");//143番に発言内容を保存。
+					}
+				
+			}else{ //変数1の発言が削除された場合
+				
+				}
+		
 			switch (args[1].toLowerCase()) {
 				case 'from':
 					var online = this.character(0).online;
