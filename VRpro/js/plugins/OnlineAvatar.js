@@ -404,12 +404,11 @@ function Game_Avatar() {
 					var name =$gameParty.members()[0].name()		
 				
 						$gameVariables.setValue(143, $gameVariables.value(143)+ name +"："+$gameVariables.value(1)+"\t"+ time + ",");//143番に発言内容と発言日時を保存。
-				
-				}else if($gameVariables.value(143)==""){
-				
+			
+			}else if($gameVariables.value(143) ==""){
 					var name =$gameParty.members()[0].name() 
 					$gameVariables.setValue(143, name +"："+$gameVariables.value(1)+"\t"+ time +  ",");//143番に発言内容を保存。
-					
+			
 				}else{
 					var name =$gameParty.members()[0].name() 
 					$gameVariables.setValue(143,$gameVariables.value(143)+ name +"："+$gameVariables.value(1)+"\t"+ time +  ",");//143番に発言内容を保存。
