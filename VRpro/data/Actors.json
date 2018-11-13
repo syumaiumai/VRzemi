@@ -37,7 +37,7 @@ null,
 {"id":35,"battlerName":"cat","characterIndex":5,"characterName":"cat","classId":3,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"ネコ","nickname":"","note":"","profile":""},
 {"id":36,"battlerName":"cat","characterIndex":6,"characterName":"cat","classId":3,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"ネコ","nickname":"","note":"","profile":""},
 {"id":37,"battlerName":"cat","characterIndex":7,"characterName":"cat","classId":3,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"ネコ","nickname":"","note":"","profile":""},
-{"id":38,"battlerName":"cat","characterIndex":1,"characterName":"bigcats","classId":3,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"ネコ","nickname":"","note":"","profile":""},
+{"id":38,"battlerName":"cat","characterIndex":1,"characterName":"$tiger","classId":3,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"ネコ","nickname":"","note":"","profile":""},
 {"id":39,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
 {"id":40,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
 ]
